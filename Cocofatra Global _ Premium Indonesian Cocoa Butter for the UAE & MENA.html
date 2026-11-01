@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cocofatra Global | Premium Indonesian Cocoa Butter for the UAE &amp; MENA</title>
+<style>
+:root{--navy:#0b2a5b;--navy2:#123a7a;--gold:#c9a227;--gold2:#e2c15a;--bg:#f7f8fb;--surf:#fff;--tx:#14213d;--mut:#5a6478;--bd:#dfe3ec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:0 0 .5em}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{background:var(--navy);color:#fff;position:sticky;top:env(safe-area-inset-top,0px);z-index:20;border-bottom:2px solid var(--gold)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--navy);z-index:10}
+.bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:12px 20px}
+.logo{font-family:Georgia,serif;font-weight:700;font-size:20px;color:#fff;text-decoration:none;margin-right:auto}
+.logo span{color:var(--gold2)}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{color:#dbe4f5;text-decoration:none;padding:6px 12px;border-radius:6px;font-size:15px}
+nav a.on,nav a:hover{color:#fff;background:var(--navy2)}
+.btn{display:inline-block;background:var(--gold);color:#1b1500;font-weight:700;padding:11px 22px;border-radius:8px;text-decoration:none;border:0;cursor:pointer;font-size:15px}
+.btn:hover{background:var(--gold2)}
+.btn.ghost{background:transparent;color:#fff;border:1.5px solid var(--gold2)}
+.btn.sm{padding:8px 16px}
+.hero{background:linear-gradient(135deg,var(--navy),#08306e 70%);color:#fff;padding:72px 0 80px}
+.hero h1{font-size:clamp(30px,5vw,50px);max-width:760px}
+.hero h1 em{color:var(--gold2);font-style:normal}
+.hero p{max-width:620px;color:#cfd9ee;font-size:18px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:40px;border-top:1px solid #2a4a85;padding-top:22px}
+.stats b{display:block;font:700 26px Georgia,serif;color:var(--gold2)}
+.stats small{color:#b9c6e2}
+section{padding:56px 0}
+.eyebrow{color:var(--gold);font-weight:700;letter-spacing:.12em;font-size:13px;text-transform:uppercase}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--surf);border:1px solid var(--bd);border-top:3px solid var(--gold);border-radius:10px;padding:22px}
+.card h3{font-size:19px;color:var(--navy)}
+
+.card p{margin:0;color:var(--mut);font-size:15px}
+.ico{font-size:26px;margin-bottom:8px}
+.band{background:var(--navy);color:#fff;text-align:center;padding:48px 0}
+.band p{color:#cfd9ee}
+.tbl{overflow-x:auto;border:1px solid var(--bd);border-radius:10px;background:var(--surf)}
+table{border-collapse:collapse;width:100%;min-width:480px}
+th,td{padding:12px 16px;text-align:left;border-bottom:1px solid var(--bd);font-size:15px}
+th{background:var(--navy);color:#fff;font-weight:600}
+tr:last-child td{border-bottom:0}
+.two{display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:start}
+.tag{display:inline-block;background:rgba(201,162,39,.16);color:var(--gold);border:1px solid var(--gold);border-radius:99px;padding:2px 12px;font-size:13px;font-weight:600;margin:0 6px 6px 0}
+ul.chk{list-style:none;padding:0;margin:0}
+ul.chk li{padding-left:28px;position:relative;margin:8px 0}
+ul.chk li::before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:700}
+.big{font:700 54px Georgia,serif;color:var(--gold)}
+.steps{counter-reset:s}
+.steps .card{position:relative;padding-top:44px}
+.steps .card::before{counter-increment:s;content:counter(s);position:absolute;top:-1px;left:22px;background:var(--gold);color:#1b1500;font-weight:700;width:30px;height:34px;display:grid;place-items:center;border-radius:0 0 8px 8px}
+form{background:var(--surf);border:1px solid var(--bd);border-radius:12px;padding:26px}
+.f{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+label{display:block;font-weight:600;font-size:14px;margin-bottom:4px}
+input,select,textarea{width:100%;padding:11px 12px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);font:inherit}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);border-color:var(--gold)}
+.full{grid-column:1/-1}
+.ok{display:none;background:rgba(201,162,39,.15);border:1px solid var(--gold);padding:16px;border-radius:8px;margin-top:16px}
+.note{font-size:13px;color:var(--mut)}
+footer{background:var(--navy);color:#b9c6e2;padding:32px 0;font-size:14px;border-top:2px solid var(--gold)}
+footer a{color:var(--gold2)}
+.page{display:none}.page.on{display:block}
+.ph{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:48px 0}
+.ph p{color:#cfd9ee;max-width:640px;margin:0}
+:root{--gold:#b08d1f;--gold2:#c9a227;--bg:#fbf9f4;--surf:#fff;--tx:#1b2333;--mut:#5d6679;--bd:#e7e1d1;--ivory:#f4efe2}
+header,body::before{background:#fff}
+header{color:var(--tx);border-bottom:1px solid var(--gold2)}
+.logo{color:var(--tx)}.logo span{color:var(--gold)}
+nav a{color:var(--mut)}nav a.on,nav a:hover{color:var(--tx);background:var(--ivory)}
+.btn.ghost{color:var(--tx);border-color:var(--gold)}
+.hero,.ph,.band{background:linear-gradient(180deg,#fffefb,var(--ivory));color:var(--tx)}
+.hero p,.ph p,.band p{color:var(--mut)}
+.hero h1 em,.stats b{color:var(--gold)}
+.stats{border-color:var(--bd)}.stats small{color:var(--mut)}
+.card h3{color:var(--tx)}
+th{background:var(--ivory);color:var(--tx)}
+footer{background:#fff;color:var(--mut);border-top:1px solid var(--gold2)}footer a{color:var(--gold)}
+.art{width:100%;height:auto;display:block;border-radius:10px;border:1px solid var(--bd);background:#fff}
+.hero-grid{display:grid;gap:36px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:center}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="butter" viewBox="0 0 400 300"><rect width="400" height="300" fill="#faf6ea"/><ellipse cx="200" cy="266" rx="150" ry="14" fill="#e9e0c8"/><g stroke="#b8943a" stroke-width="1.5"><path d="M60 200L140 170L220 200L140 230Z" fill="#f6e7ae"/><path d="M60 200L140 230V262L60 232Z" fill="#e8d083"/><path d="M140 230L220 200V232L140 262Z" fill="#dcc06a"/><path d="M180 150L260 120L340 150L260 180Z" fill="#f6e7ae"/><path d="M180 150L260 180V212L180 182Z" fill="#e8d083"/><path d="M260 180L340 150V182L260 212Z" fill="#dcc06a"/></g><g transform="rotate(-25 110 110)"><ellipse cx="110" cy="110" rx="28" ry="58" fill="#8a4b24"/><path d="M110 52V168M92 62C84 100 84 120 92 158M128 62C136 100 136 120 128 158" stroke="#6b3718" stroke-width="2" fill="none"/></g><path d="M310 40C310 40 280 80 280 98A30 30 0 0 0 340 98C340 80 310 40 310 40Z" fill="#e6c25a" stroke="#b8943a"/></symbol>
+<symbol id="oil" viewBox="0 0 400 300"><rect width="400" height="300" fill="#faf6ea"/><ellipse cx="200" cy="268" rx="160" ry="12" fill="#e9e0c8"/><rect x="60" y="150" width="120" height="110" rx="14" fill="#f6e7ae" stroke="#b8943a" stroke-width="2"/><rect x="55" y="132" width="130" height="28" rx="8" fill="#b08d1f"/><rect x="85" y="190" width="70" height="30" rx="4" fill="#fff" opacity=".85"/><path d="M240 130h50v20l12 20v90a10 10 0 0 1-10 10h-54a10 10 0 0 1-10-10v-90l12-20z" fill="#e6c25a" stroke="#b8943a" stroke-width="2"/><rect x="250" y="100" width="30" height="32" rx="4" fill="#8a4b24"/><path d="M345 80C345 80 325 108 325 120A20 20 0 0 0 365 120C365 108 345 80 345 80Z" fill="#e6c25a" stroke="#b8943a"/></symbol>
+<symbol id="port" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f1f5fb"/><rect y="230" width="400" height="70" fill="#cddcf0"/><g stroke="#b08d1f" stroke-width="5" fill="none"><path d="M50 236V70M110 236V70M30 70H300"/></g><path d="M290 70V130" stroke="#555" stroke-width="2"/><rect x="265" y="130" width="50" height="30" fill="#2b4c8c"/><rect x="90" y="205" width="50" height="32" fill="#c9a227" stroke="#fff"/><rect x="140" y="205" width="50" height="32" fill="#2b4c8c" stroke="#fff"/><rect x="190" y="205" width="50" height="32" fill="#e9e4d4" stroke="#fff"/><rect x="240" y="205" width="50" height="32" fill="#8a4b24" stroke="#fff"/><rect x="140" y="173" width="50" height="32" fill="#c9a227" stroke="#fff"/><rect x="190" y="173" width="50" height="32" fill="#8a4b24" stroke="#fff"/><rect x="240" y="173" width="50" height="32" fill="#2b4c8c" stroke="#fff"/><path d="M40 237h340l-26 32H68z" fill="#1f2a44"/></symbol>
+</defs></svg>
+<header><div class="bar wrap">
+<a class="logo" href="#home">Cocofatra <span>Global</span></a>
+<nav id="nav"><a href="#home" data-p="home">Home</a><a href="#product" data-p="product">Product</a><a href="#trade" data-p="trade">Export &amp; Trade</a><a href="#inquiry" data-p="inquiry">Contact</a></nav>
+<a class="btn sm" href="#inquiry" data-t="quote">Request a Quote</a>
+</div></header>
+
+<main>
+<!-- HOME -->
+<div class="page" id="home">
+<div class="hero"><div class="wrap hero-grid"><div>
+<div class="eyebrow">Indonesia → UAE &amp; MENA</div>
+<h1>Premium Indonesian Cocoa Butter with <em>high natural melting point</em>, perfectly suited for the Middle East climate.</h1>
+<p>Direct-from-origin supply of cocoa butter, fat &amp; oil for chocolate, confectionery and cosmetics manufacturers across the Gulf.</p>
+<div class="cta"><a class="btn" href="#inquiry" data-t="quote">Request a Quote</a><a class="btn ghost" href="#inquiry" data-t="samples">Get Samples</a></div>
+<div class="stats"><div><b>0%</b><small>tariff under IUAE-CEPA*</small></div><div><b>Halal</b><small>BPJPH certified</small></div><div><b>Jebel Ali</b><small>FOB &amp; CIF terms</small></div></div></div>
+<div><svg class="art" viewBox="0 0 400 300" role="img" aria-label="Cocoa butter blocks and cocoa pod"><use href="#butter"/></svg></div>
+</div></div>
+
+<section><div class="wrap">
+<div class="eyebrow">Why choose us</div><h2>Built for Gulf manufacturers</h2>
+<div class="grid">
+<div class="card"><div class="ico">🌡️</div><h3>Heat-ready performance</h3><p>A high natural melting point supports better snap, gloss and stability in hot, humid supply chains.</p></div>
+<div class="card"><div class="ico">☪️</div><h3>BPJPH Halal certified</h3><p>Halal-compliant production, accepted across GCC and wider MENA markets.</p></div>
+<div class="card"><div class="ico">📉</div><h3>Tariff advantage</h3><p>Preferential access under the Indonesia–UAE CEPA lowers landed cost versus non-CEPA origins.</p></div>
+<div class="card"><div class="ico">🚢</div><h3>Reliable logistics</h3><p>Documented export process with FOB or CIF Jebel Ali, plus batch traceability and COA on every lot.</p></div>
+</div></div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<div class="eyebrow">Product overview</div><h2>Cocoa Butter, Fat &amp; Oil</h2>
+<div class="grid">
+<div class="card"><h3>Natural Cocoa Butter</h3><p>Pressed from cocoa beans, rich in stable triglycerides. Ideal for premium chocolate and couverture.</p></div>
+<div class="card"><h3>Deodorized Cocoa Butter</h3><p>Neutral aroma and colour for cosmetics, skincare and delicate confectionery fillings.</p></div>
+<div class="card"><h3>Custom Packaging</h3><p>25 kg cartons and bulk options, with private-label labelling on request.</p></div>
+</div>
+<div class="grid" style="margin-top:28px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))"><div><svg class="art" viewBox="0 0 400 300" role="img" aria-label="Cocoa fat and oil"><use href="#oil"/></svg><p class="note">Cocoa butter, fat &amp; oil, packed for industrial use.</p></div><div><svg class="art" viewBox="0 0 400 300" role="img" aria-label="Container port"><use href="#port"/></svg><p class="note">Shipped by container from Indonesian ports to Jebel Ali.</p></div></div>
+<p style="margin-top:22px"><a class="btn" href="#product">View Product Specs</a></p>
+</div></section>
+
+<div class="band"><div class="wrap"><h2>Ready to secure your next shipment?</h2><p>Tell us your volume and port. We reply with pricing and sample options.</p><div class="cta" style="justify-content:center"><a class="btn" href="#inquiry" data-t="quote">Request a Quote</a><a class="btn ghost" href="#inquiry" data-t="samples">Get Samples</a></div></div></div>
+</div>
+
+<!-- PRODUCT -->
+<div class="page" id="product">
+<div class="ph"><div class="wrap"><div class="eyebrow">Product detail</div><h1>Cocoa Butter, Fat &amp; Oil</h1><p>HS Code 1804.00.00. Typical specifications; a lot-specific Certificate of Analysis accompanies every shipment.</p></div></div>
+<section style="padding-bottom:0"><div class="wrap grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))"><div><svg class="art" viewBox="0 0 400 300" role="img" aria-label="Cocoa butter blocks"><use href="#butter"/></svg><p class="note">Natural cocoa butter blocks</p></div><div><svg class="art" viewBox="0 0 400 300" role="img" aria-label="Cocoa fat and oil"><use href="#oil"/></svg><p class="note">Cocoa fat &amp; oil</p></div></div></section>
+<section><div class="wrap two">
+<div>
+<h2>Technical specifications</h2>
+<div class="tbl"><table>
+<tr><th>Parameter</th><th>Typical value</th></tr>
+<tr><td>HS Code</td><td>1804.00.00</td></tr>
+<tr><td>Origin</td><td>Indonesia</td></tr>
+<tr><td>Appearance</td><td>Pale yellow, solid at room temp</td></tr>
+<tr><td>Melting point</td><td>approx. 34–38 °C</td></tr>
+<tr><td>Free fatty acids (as oleic)</td><td>≤ 1.75%</td></tr>
+<tr><td>Moisture</td><td>≤ 0.1%</td></tr>
+<tr><td>Iodine value</td><td>33–42</td></tr>
+<tr><td>Packaging</td><td>25 kg carton, food-grade liner</td></tr>
+<tr><td>Shelf life</td><td>24 months, cool dry storage</td></tr>
+<tr><td>Certification</td><td>BPJPH Halal</td></tr>
+</table></div>
+<p class="note">Values are indicative. Request the current technical data sheet for contractual specifications.</p>
+</div>
+<div>
+<h2>Industrial applications</h2>
+<div class="card" style="margin-bottom:16px"><h3>🍫 Chocolate &amp; Confectionery</h3>
+<span class="tag">Couverture</span><span class="tag">Compound coatings</span><span class="tag">Pralines</span><span class="tag">Bakery fillings</span>
+<p>Delivers snap, gloss and clean melt, with improved bloom resistance in warm climates.</p></div>
+<div class="card"><h3>✨ Cosmetics &amp; Personal Care</h3>
+<span class="tag">Lotions</span><span class="tag">Lip balms</span><span class="tag">Body butters</span><span class="tag">Soaps</span>
+<p>A natural emollient that melts at skin temperature and is rich in antioxidants.</p></div>
+<p style="margin-top:20px"><a class="btn" href="#inquiry" data-t="quote">Request a Quote</a> <a class="btn ghost" href="#inquiry" data-t="samples">Get Samples</a></p>
+</div>
+</div></section>
+</div>
+
+<!-- TRADE -->
+<div class="page" id="trade">
+<div class="ph"><div class="wrap"><div class="eyebrow">Export &amp; trade policy</div><h1>Trade made simpler with IUAE-CEPA</h1><p>The Indonesia–UAE Comprehensive Economic Partnership Agreement opens preferential access for Indonesian cocoa products.</p></div></div>
+<section><div class="wrap">
+<div class="two" style="margin-bottom:32px"><div><h2>Direct from Indonesia to Jebel Ali</h2><p style="color:var(--mut)">Containerised shipments leave Indonesian ports and arrive at Jebel Ali, the main gateway for the UAE and wider MENA distribution.</p></div><svg class="art" viewBox="0 0 400 300" role="img" aria-label="Container ship and port crane"><use href="#port"/></svg></div>
+<div class="grid">
+<div class="card"><div class="big">0%</div><h3>Import tariff advantage</h3><p>Preferential duty treatment for qualifying Indonesian goods, subject to origin rules and a valid Certificate of Origin.</p></div>
+<div class="card"><div class="big">⚡</div><h3>Faster customs clearance</h3><p>CEPA-aligned procedures and complete, pre-checked documentation reduce time at Jebel Ali.</p></div>
+<div class="card"><div class="big">☪</div><h3>BPJPH Halal certified</h3><p>Certified by Indonesia’s Halal Product Assurance Agency, supporting entry into Halal-sensitive Gulf markets.</p></div>
+</div>
+<p class="note" style="margin-top:12px">*Tariff treatment depends on the HS line and CEPA rules of origin at the time of import. Please confirm with your customs broker.</p>
+</div></section>
+<section style="padding-top:0"><div class="wrap">
+<h2>How an order works</h2>
+<div class="grid steps">
+<div class="card"><h3>Inquiry</h3><p>Share your volume, grade and Incoterm.</p></div>
+<div class="card"><h3>Samples &amp; quote</h3><p>Evaluate samples and receive a formal offer.</p></div>
+<div class="card"><h3>Documents</h3><p>Proforma, L/C or T/T, Certificate of Origin, COA, Halal certificate, packing list.</p></div>
+<div class="card"><h3>Shipment</h3><p>FOB Indonesian port or CIF Jebel Ali, with tracking.</p></div>
+</div>
+<div class="two" style="margin-top:32px">
+<div class="card"><h3>Supported Incoterms</h3><ul class="chk"><li><b>FOB</b>: you arrange freight from the Indonesian port</li><li><b>CIF Jebel Ali</b>: we arrange freight and insurance to Dubai</li></ul></div>
+<div class="card"><h3>Document pack</h3><ul class="chk"><li>Certificate of Origin (CEPA)</li><li>Certificate of Analysis</li><li>BPJPH Halal certificate</li><li>Commercial invoice &amp; packing list</li></ul></div>
+</div>
+<p style="margin-top:26px"><a class="btn" href="#inquiry" data-t="quote">Request a Quote</a></p>
+</div></section>
+</div>
+
+<!-- INQUIRY -->
+<div class="page" id="inquiry">
+<div class="ph"><div class="wrap"><div class="eyebrow">Inquiry / contact</div><h1>Request a quote or samples</h1><p>Our export team replies within 1–2 business days with pricing, lead times and sample options.</p></div></div>
+<section><div class="wrap two" style="grid-template-columns:2fr 1fr">
+<form id="frm" novalidate>
+<div class="f">
+<div class="full"><label>I would like to</label><select id="type"><option value="quote">Request a Quote</option><option value="samples">Get Samples</option></select></div>
+<div><label for="co">Company name *</label><input id="co" required autocomplete="organization"></div>
+<div><label for="lic">Trade license no. *</label><input id="lic" required></div>
+<div><label for="nm">Contact person *</label><input id="nm" required autocomplete="name"></div>
+<div><label for="em">Business email *</label><input id="em" type="email" required autocomplete="email"></div>
+<div><label for="ph">Phone / WhatsApp</label><input id="ph" type="tel" autocomplete="tel"></div>
+<div><label for="cty">Country</label><select id="cty"><option>United Arab Emirates</option><option>Saudi Arabia</option><option>Qatar</option><option>Kuwait</option><option>Oman</option><option>Bahrain</option><option>Other MENA</option></select></div>
+<div><label for="vol">Required volume (tons) *</label><input id="vol" type="number" min="1" step="0.5" required></div>
+<div><label for="inc">Shipping Incoterm *</label><select id="inc" required><option value="">Select…</option><option>FOB (Indonesian port)</option><option>CIF Jebel Ali</option></select></div>
+<div class="full"><label for="app">Application</label><select id="app"><option>Chocolate / Confectionery</option><option>Cosmetics / Personal care</option><option>Other</option></select></div>
+<div class="full"><label for="msg">Notes</label><textarea id="msg" rows="4" placeholder="Grade, packaging, delivery timeline…"></textarea></div>
+<div class="full"><button class="btn" type="submit">Send Inquiry</button></div>
+</div>
+<div class="ok" id="ok" role="status"></div>
+</form>
+<aside>
+<div class="card"><h3>Why inquire?</h3><ul class="chk"><li>Free sample evaluation for qualified buyers</li><li>COA and Halal documents on request</li><li>Fast CIF Jebel Ali pricing</li></ul></div>
+<div class="card" style="margin-top:16px"><h3>Export desk</h3><p>export@cocofatra.example<br>Tel: +62 22 8765 4321<br>WhatsApp: +62 812 3456 7890<br>Indonesia</p></div>
+</aside>
+</div></section>
+</div>
+</main>
+
+<footer><div class="wrap">© 2026 Cocofatra Global. Premium Indonesian cocoa butter for the UAE &amp; MENA. · <a href="#inquiry">Request a Quote</a></div></footer>
+
+<script>
+(function(){
+var pages=["home","product","trade","inquiry"];
+function route(){
+  var h=(location.hash||"#home").slice(1);
+  if(pages.indexOf(h)<0)h="home";
+  pages.forEach(function(p){document.getElementById(p).classList.toggle("on",p===h)});
+  document.querySelectorAll("#nav a").forEach(function(a){a.classList.toggle("on",a.dataset.p===h)});
+  window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",route);route();
+document.addEventListener("click",function(e){
+  var t=e.target.closest("[data-t]");
+  if(t)document.getElementById("type").value=t.dataset.t;
+});
+document.getElementById("frm").addEventListener("submit",function(e){
+  e.preventDefault();
+  var ok=document.getElementById("ok"),bad=false;
+  ["co","lic","nm","em","vol","inc"].forEach(function(id){
+    var el=document.getElementById(id),v=!el.value.trim()||(id==="em"&&!/^\S+@\S+\.\S+$/.test(el.value));
+    el.style.borderColor=v?"#d33":"";if(v)bad=true;
+  });
+  ok.style.display="block";
+  if(bad){ok.textContent="Please complete the required fields (company, trade license, contact, valid email, volume, Incoterm).";return}
+  ok.textContent="Thank you, "+document.getElementById("nm").value+". Your inquiry for "+document.getElementById("vol").value+" tons ("+document.getElementById("inc").value+") has been recorded. Our export team will contact you shortly.";
+  e.target.reset();
+});
+})();
+</script>
+</body>
+</html>
